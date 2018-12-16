@@ -1,0 +1,9 @@
+[package]
+name = "resp-parser"
+version = "0.1.0"
+authors = ["neetdai <ake17101@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+failure = {git = "https://github.com/rust-lang-nursery/failure"}
+failure_derive = {git = "https://github.com/withoutboats/failure_derive"}
